@@ -2,7 +2,7 @@
 $mysql_hostname = "Host";
 $mysql_user = "UserName";
 $mysql_password = "Password";
-$mysql_database = "DataaseName";
+$mysql_database = "DatabaseName";
 
 	
 $bd = mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("We are Updating.. We'll get back soon");
